@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <style>
+        table, th,td{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div style="max-width: 900px; background: #c9c9cb; padding: 20px; border-radius: 10px; text-align: center;">
+        <img src" alt="" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 4px solid #007BFF; margin-bottom: 20px;">
+        <h1 style= "color: #007BFF;">Piyush</h1>
+        <h2 style="color: #555;">Liitile Bit about Myself </h2>
+        <p>
+            Hello! I'm Piyush from <span style="color: #28a745; font-weight: bold;"> Berhampur</span>, known for its lustrous ikkat silk saree in different colours and patterns.
+            I completed my school and colleges . I sucessfully completed an Integrated Master degree in Electronics telecommunication from Khallikote University.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident praesentium necessitatibus tenetur iusto expedita quo, unde odio voluptate itaque illum ducimus officia natus aliquid eligendi recusandae maxime amet quibusdam suscipit?
+        </p>
+        <div>
+            <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
+            <a href="#">Portfolio</a>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <table>
+        <tr>
+            <th>Fathers name </th>
+            <th>Mothers name </th>
+            <th>Hometowen </th>
+            <th>Adrress</th>
+            <th>Pincode</th>
+        </tr>
+        <tr>
+            <td>Purna Pattnaik </td>
+            <td>Sandhya Pattnaik</td>
+            <td>Berhampur</td>
+            <td>Gandhi Nagar</td>
+            <td>76001</td>
+        </tr>
+    </table>
+<br>
+<br>
+<br>
+
+    <form>
+        <!-- Text Input -->
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name">
+        <br>
+        <br>
+
+        <!-- Dropdown -->
+        <label for="city">City:</label>
+        <select id="city" name="city">
+            <option value="">Select your city</option>
+            <option value="Bhubaneswar"> Bhubaneswar</option>
+            <option value="Puri">Puri</option>
+            <option value="Cuttack">Cuttack</option>
+            <option value="Berhampur"> Berhampur </option>
+        </select>
+<br>
+<br>
+        <!-- Radio Buttons -->
+        <label>Gender:</label>
+        <label><input type="radio" name="gender" value="male" required> Male</label><br>
+        <label><input type="radio" name="gender" value="female" required> Female</label><br>
+        <label><input type="radio" name="gender" value="other" required> Other</label><br><br>
+<br>
+<br>
+        <!-- Checkboxes -->
+        <label>Hobbies:</label>
+        <label><input type="checkbox" name="hobbies" value="sports"> Sports</label><br>
+        <label><input type="checkbox" name="hobbies" value="reading"> Reading</label><br>
+        <label><input type="checkbox" name="hobbies" value="traveling"> Traveling</label><br>
+        <label><input type="checkbox" name="hobbies" value="music"> Music</label><br><br>
+<br>
+<br>
+        <!-- Submit Button -->
+        <button type="submit" style="background-color: #007BFF; color: #fff">Submit</button>
+    </form>
+</body>
+</html>
